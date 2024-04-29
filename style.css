@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jersey+20&family=Jersey+20+Charted&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+aside {
+    position:absolute;
+    right:250px;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.seccionbox {
+    position:absolute;
+    display: flex;
+    top:250px;
+    left:5%;
+    z-index: -2;
+
+}
+
+.jimmy {
+    width: 600px;
+    height: 320px;
+}
+
+.noticiasbox {
+    z-index: -2;
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+   top:-200px;
+   left:800px;
+    text-align: justify;
+    
+}
+
+.articleBox {
+    z-index: -2;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 590px;
+    left:00px;
+    text-align: justify;
+    
+}
+
+.article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 0;
+    max-width: 820px;
+    text-align: justify;
+    background-color: #3f3f4269;
+    display: flex;
+   }
+
+.noticiasbox  li {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.textolista {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ max-width: 800px;
+ text-align: justify;
+ background-color: #3f3f4269;
+ display: flex;
+}
+
+.imgnoticia {
+    position:relative;
+    display: inline;
+    width: 100px;
+    height:100px;
+    
+}
+body{
+    background-image: url(img/vinilos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+    color:#fff;
+    /*que la altura tenga un tamaño máximo del 100% de mi scope (zona de trabajo)
+    según la visión del navegador*/
+    height: 100vh;
+}
+header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252a;
+    /*Margen del relleno de la caja (padding) sea del 2% del tamaño de la anchura de la visión
+    del scope (zonda de trabajo) del navegador */
+    padding-left:2vw;
+    font-family: arial;
+
+}
+
+
+
+.nav2 {
+    font-family: "Jersey 20", sans-serif;
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b9b4b4b7;
+    /*Margen del relleno de la caja (padding) sea del 2% del tamaño de la anchura de la visión
+    del scope (zonda de trabajo) del navegador */
+    padding-left:2vw;
+
+
+
+}
+
+ 
+
+.cont-ul{
+    position: relative;
+    left: 200px;
+   display:flex;
+   text-decoration: none;
+   
+}
+li{
+    list-style: none;
+    cursor:pointer;
+    /*Margen del relleno de la caja (padding) sea del 1.5% del tamaño de la anchura de la visión
+    del scope (zonda de trabajo) del navegador */
+    padding:1.5vw;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+li a {
+    color:black;
+    text-decoration: none;
+}
+
+li a:hover {
+    filter: blur(1px);
+    transition: 0.1s;
+}
+
+li:hover{
+    font-family: "Jersey 20", sans-serif;
+    color: aliceblue;
+    background-color: #ebe5e5;
+  
+}
+
+.redesSociales {
+    position:absolute;
+ left: 43%;
+ top: 542%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+}
+
+.redesSociales img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.redesSociales li:hover {
+
+ background-color:#00884800;
+}
+
+
+.redesSociales li  {
+    padding:10px;
+}
+
+
+.redesSociales li a:hover {
+    
+    filter: blur(1px)
+
+   
+}
+
+.develop{
+    position: relative;
+}
+.ul-second{
+    display: none;
+    position:absolute;
+    margin-top:1.5vw;
+}
+.ul-second>li{
+    width: 190px;
+    transform: translateX(-20px);
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    background-color: #24252a;
+}
+.ul-second>li:hover{
+    background-color: #008849;
+}
+.develop:hover>.ul-second{
+    display: block;
+}
+.ul-third{
+    position: absolute;
+    transform: translateX(100%);
+    right: 0px;
+    top:40%;
+    display: none;
+    background-color: #24252a;
+}
+.ul-third>li{
+    padding:1.5vw;
+    border-bottom: 1px solid #fff;
+}
+.front:hover>.ul-third{
+    display: block;
+}
+.logo{
+width: 60px;
+height: 70px;
+position: relative;
+top:2px;
+}
+
+.telefono{
+    position: relative;
+    right: 50px;
+    top:0px;
+    font-size: 20px;
+   
+    
+    }
+
+    #telfrojo {
+        color: red;
+    }
+
+    .copyq {
+        position: absolute;
+        top:830px;
+        left: 700px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(255, 255, 255);
+        background-color: #24252a46;
+        font-family: "Jersey 20", sans-serif;
+        font-size: 30px;
+       
+    }
+
+
+
+
+
+/*formulario*/
+
+.titulo1{
+    color: rgb(237, 175, 5);
+    font-size: 40px;
+    align-items: center;
+    font-family: "Jersey 20", sans-serif; 
+}
+
+.titulo2{
+    color: rgb(78, 76, 71);
+    font-size: 27px;
+    align-items: center;
+    font-family: "Jersey 20", sans-serif; 
+}
+
+.estiloformulario {
+    width: 600px;
+    height: 950px;
+    background-color: black; 
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: Verdana;
+    color: rgb(249, 249, 246);
+    margin: auto;
+    
+}
+
+.huecosenvio{
+    background-color: rgb(218, 226, 158);
+} 
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(237, 175, 5) ;
+}
+
+.botones{
+    border: 1px solid crimson; 
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-right: 1px;
+}
+
+.textarea{
+    width: 570px; 
+}
+
+.fotos {
+    width: 100%;
+    margin: 0 auto;
+}
+.container:after {
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.container {
+    width: 90%;
+    margin: 0 9%;
+    margin-top: 30px;
+}
+.copyq1{
+        position: absolute;
+        margin-top:250px;
+        left: 450px;
+        margin-bottom: 10px;
+        padding: 0 0px;
+        display: relative;
+        justify-content: center;
+        align-items: center;
+        color:rgb(223, 220, 36);
+        background-color: #000000a2;
+        font-family: "Jersey 20", sans-serif;
+        font-size: 20px;
+    }
+    
+    .redesSociales1 {
+            position:absolute;
+            left: 43%;
+            top: 130%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            list-style: none;
+        }
+        
+        .redesSociales1 img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        
+        .redesSociales1 li:hover {
+        
+         background-color:#00884800;
+        }
+        
+        
+        .redesSociales1 li  {
+            padding:10px;
+        }
+        
+        
+        .redesSociales1 li a:hover {
+            
+            filter: blur(1px);
+}
+.container div {
+    width: 28%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 0% 0% 3% 0%;
+    padding: 0px;
+}
+.container div img {
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(25, 1, 22);
+}
+.container div span {
+    color: white;
+    text-align: center;
+    display: block;
+}
+.container div img~span {
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 0;
+    padding: 2px 5px;
+    background-color: rgb(49, 47, 49);
+    box-shadow: black;
+}
+/* Para hacer aparecer el texto*/
+.container div img:hover+span {
+    opacity: 1;
+}
+/*Para que la imagen se vaya al fondo*/
+.container:hover div {
+    opacity: 0.3;
+    transform: scale(0.7);
+    transition: 1.5s;
+}
+/*Para que la iamgen seleccionada se quede*/
+.container:hover div:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*Página quienesSomos*/
+
+
+.fotosomos{
+    position: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.fotosomos img{
+    margin-top: 50px;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    transition: transform 2s ease; /* Transición de 2 segundo con efecto suave con ello logro que la foto gire mas despacio
+    para poder apreciar el efecto*/
+}
+
+.fotosomos img:hover {
+    transform: rotateY(360deg);
+
+}
+
+.nombres{
+    font-size: 50px;
+    font-family: "Jersey 20", sans-serif;
+    color:rgb(223, 220, 36);
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.somos{
+    margin-top: 10px;
+    text-align: center;
+    color: #e5f1d6;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+   
+}
+audio{
+    margin-top: 20px;
+    border-radius: 50px;
+   
+   
+}
+.texto{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.copyq1{
+    position: absolute;
+    margin-top:40px;
+    left: 450px;
+    margin-bottom: 10px;
+    padding: 0 0px;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    color:rgb(223, 220, 36);
+    background-color: #000000a2;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 20px;
+}
+.copyq2{
+    position: absolute;
+    margin-top:10px;
+    left: 450px;
+    margin-bottom: 10px;
+    padding: 0 0px;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    color:rgb(223, 220, 36);
+    background-color: #000000a2;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 20px;
+}
+.redesSociales2 {
+    position:absolute;
+    left: 43%;
+    top: 200%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+}
+
+.redesSociales2 img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.redesSociales2 li:hover {
+
+ background-color:#00884800;
+}
+
+
+.redesSociales2 li  {
+    padding:10px;
+}
+
+
+.redesSociales2 li a:hover {
+    
+    filter: blur(1px);
+
+    /*Ajuste para responsive*/
+    @media(max-width:900px)
+    {
+    
+
+        .logo{
+            display: none;
+        }
+    
+        .nav2 {
+            font-size: 5px;
+        }
+    
+        .telefono {
+            display:none;
+        }
+    
+    
+    
+        .cont-ul{
+            position: relative;
+            left: 40px;
+           display:flex;
+           
+        }
+
+        .fotosomos img{
+            width: 50%;
+            height: 50%;
+        }
+        .somos{
+            font-size: 10px;
+        }
+        .nombres{
+            font-size: 10px;
+        }
+
+        .texto{
+            font-size: 10px;
+        }
+        .audio{
+            width: auto;
+            height: auto;
+            font-size: 10px;
+        }
+    
+        .copyq1 {
+            position: absolute;
+            top:550px;
+            left: 30px;
+            right: 30px;
+            margin-bottom: 20px;
+     
+            display: flex;
+            justify-content: center;
+            text-decoration-skip: center;
+            color:rgb(223, 220, 36);
+            background-color: #000000a2;
+            font-family: "Jersey 20", sans-serif;
+            font-size: 10px;
+           
+        }
+        .redesSociales1{
+       display: none;
+            }
+     .copyq2 {
+                position: absolute;
+                top:200px;
+                left: 30px;
+                right: 30px;
+                margin-bottom: 20px;
+         
+                display: flex;
+                justify-content: center;
+                text-decoration-skip: center;
+                color:rgb(223, 220, 36);
+                background-color: #000000a2;
+                font-family: "Jersey 20", sans-serif;
+                font-size: 10px;
+               
+            }
+            .redesSociales2{
+           display: none;
+                }
+                .estiloformulario {
+                    width: 90%; 
+                    margin: 0 auto; 
+                  }
+                
+         
+                  .estiloformulario input[type="text"],
+                  .estiloformulario input[type="email"],
+                  .estiloformulario input[type="date"],
+                  .estiloformulario textarea,
+                  .estiloformulario select {
+                    width: 100%; 
+                    box-sizing: border-box; 
+                    margin-bottom: 10px; 
+                  }
+                
+                  .estiloformulario input[type="submit"],
+                  .estiloformulario input[type="reset"] {
+                    width: 50%; 
+                    box-sizing: border-box; 
+                    margin-bottom: 10px; 
+                  }
+                .titulo1{
+                    font-size: 10px;
+                }
+                .titulo2{
+                    font-size: 10px;
+                }
+        }
+        
+@media  screen and (min-width:1300px) {
+.redesSociales2{
+top:20px
+    }
+    
+
+ .seccionbox {
+        position:absolute;
+        left: 20px;
+        top:110px;
+    
+    }
+    
+ .jimmy {
+        width: 200px;
+       
+    }
+
+aside {
+        position:absolute;
+        right:30px;
+    }
+
+
+.logo{
+        display: none;
+    }
+
+.nav2 {
+        font-size: 20px;
+    }
+
+.telefono {
+        display:none;
+    }
+
+
+
+.cont-ul{
+        position: relative;
+        left: 45px;
+       display:flex;
+       
+    }
+
+.copyq {
+        position: absolute;
+        top:500px;
+        left: 160px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(223, 220, 36);
+        background-color: #000000a2;
+        font-family: "Jersey 20", sans-serif;
+        font-size: 20px;
+       }
+    }
+
+}

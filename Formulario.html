@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="contenedor">
+
+        <header>
+        <p class="logo-unir"><img class= "logo" src="img/logo.png" alt=""></p>
+        <p class="telefono">TELÉFONO: <object id="telfrojo">999-999-99</object></p>
+    </header>
+        
+    <nav class="nav2">
+        <ul class="cont-ul">
+            <li> <a href="index.html" target="_blank">Inicio</a></li>
+            <li> <a href="Quienessomos.html" target="_blank">Quiénes somos</a></li>
+      
+            <li class="develop"> <a href="areas.html" target="_blank">ÁREAS DE ACTUACIÓN</a>
+                <ul class="ul-second">
+                    <li class="back">EJEMPLO1</li>
+                    <li class="front">EJEMPLO2
+                        <ul class="ul-third">
+                            <li>EJEMPLO22</li>
+                            <li>EJEMPLO22</li>
+                            <li>EJEMPLO22</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li> <a href="#">Contacta con nosotros</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo1">Contacta con nosotros</h1>
+    <h2 class="titulo2">Indicanos en que podemos ayudarte y nos pondremos en contacto contigo cuanto antes.</h2>
+    <br>
+    <br>
+        <fieldset class="estiloformulario" > 
+            <br>
+            <fieldset><legend class="formutitulos">Datos Personales</legend>
+                <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com" >
+                    <br>Nombre: <p> </p><input type="text" placeholder="Indica tu nombre de pila."  required>
+                    <br>
+                    <br>Apellidos: <p></p><input type="text" placeholder="Indica tus apellidos" required> 
+                    <br>
+                    <br>Dirección Postal:<p></p> <input type="text" placeholder="Calle">
+                                                <input type="text" placeholder="Número">
+                                                <input type="text" placeholder="Piso">
+                                                <input type="text" placeholder="Código Postal">
+                                                <input type="text" placeholder="Ciudad">
+                    <br>
+                    <br>Télefono: <p></p><input type="text" placeholder="677890978" >
+                    <br>
+                    <br>Correo electrónico:<p></p><input type="email" name="mail" placeholder="cortes@unir.fp"  required><p></p>
+                    <br>
+                </form>
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                    <input type="radio" name="FP" id="" value="Mujer">Mujer <p></p>
+                    <input type="radio" name="FP" id="" value="Hombre">Hombre<p></p>
+                    <input type="radio" name="FP" id="" value="Prefiero no decirlo">Prefiero no decirlo<p></p>
+                <br>
+            </fieldset>
+    
+            <fieldset><legend >Fecha de nacimiento</legend>
+                <input type="date" name="dia" class="huecos" min="1992-02-07" max="2024-05-05" step="1"><p></p>
+                <br>
+            </fieldset>
+           
+            <fieldset><legend >¿Cómo nos has conocido?</legend>
+                <select name="Indica el medio:">
+                    <option value="1">Facebook</option>
+                    <option value="2">Instagram</option>
+                    <option value="3">Página web</option>
+                    <option value="4">Anuncios</option>
+                    <option value="4">Por amigos</option>
+                    <option value="4">Por otro lado</option>
+                </select><p></p>
+                <br>
+            </fieldset>
+            
+            <fieldset><legend>Comentarios</legend>
+                <textarea name="Dejar un comentario:" class="textarea" cols="30" rows="10" minlength="5" maxlength="240" placeholder="Escribe aquí tu opinión..."></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar" class="botones"> 
+            <input type="reset" value="Borrar" class="botones"> 
+            
+            <form name="formulario" method="post" action="mailto:grupodelenguajemarcas@gmail.com"></form>
+        </fieldset>
+
+    <footer>
+        <div class="copyq1">
+            <p>Web creada por Omar, Cortes, Mar y Juan Ángel</p>
+        </div>
+        <ul class="redesSociales1">
+            <li><a href="mailto:empresa@gmail.com"><img src="img/icon/email.png" alt=""></a></li>
+                <li><a href=#><img src="img/icon/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/icon/twitter.png" alt=""></a></li>
+        </ul>
+    </footer>
+        </div>
+    </div>
+</body>
+</html>
